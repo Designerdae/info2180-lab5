@@ -1,1 +1,55 @@
 /* Add your own styles */
+header{
+    align-items: center;
+    text-transform:uppercase;
+    background-color:#a415f7;
+    color:black;
+    display:flex;
+    justify-content: center;
+    
+}
+
+
+body{
+    font-family:Zapf Chancery, cursive;
+        background-color: whitesmoke;
+        margin:0;
+        font-size:16px;
+        
+}
+
+img {
+   border-radius: 100%;
+   height: 100px;
+   width: 100px;
+}
+
+button{
+    color:white;
+    background-color: rgb(37, 86, 190);
+    border-radius: 8px;
+}
+
+
+input{
+    font-size:16px;
+    border: 1px solid #ccc;
+    margin: 8px 0;
+    padding: 12px 20px;
+    border-radius: 8px;
+    
+}
+
+input[type=text]{
+    width:75%;
+    margin-right:3px;
+    box-sizing: border-box;
+}
+
+input[type=search]{
+    background-color:white;
+    color:black;
+    font-weight: bold;
+    width:30%;
+    
+}
